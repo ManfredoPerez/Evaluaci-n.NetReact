@@ -24,7 +24,18 @@ const Navbar = () => {
                 <i className="bi bi-list-ul me-2"></i> 👦 Listado Alumnos
               </Link>
             </li>
-            
+            {/* Crear Alumno */}
+            <li className="nav-item">
+              <Link className="nav-link fs-5 fw-semibold text-white px-4 py-3" to="/crear-alumno">
+                <i className="bi bi-list-ul me-2"></i> Crear Alumno
+              </Link>
+            </li>
+            {/* Consultar Alumnos por Grado */}
+            <li className="nav-item">
+              <Link className="nav-link fs-5 fw-semibold text-white px-4 py-3" to="/consultar-alumnos-grado">
+                <i className="bi bi-list-ul me-2"></i> Alumno por Grado
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

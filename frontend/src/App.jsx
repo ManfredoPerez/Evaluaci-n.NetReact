@@ -2,6 +2,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ListarAlumnos from "./pages/ListarAlumnos/ListarAlumnos";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import CrearAlumno from "./pages/CrearAlumno/CrearAlumno";
+import ConsultarAlumnosGrado from "./pages/ConsultarAlumnosGrado/ConsultarAlumnosGrado";
 
 
 function App() {
@@ -16,6 +20,8 @@ function App() {
             <div className="bg-white p-4 rounded shadow">
               <Routes>
                 <Route path="/listar-alumnos" element={<ListarAlumnos />} />
+                <Route path="/crear-alumno" element={<CrearAlumno />} />
+                <Route path="/consultar-alumnos-grado" element={<ConsultarAlumnosGrado />} />
                 <Route path="/" element={<ListarAlumnos />} /> {/* Ruta por defecto */}
               </Routes>
             </div>
