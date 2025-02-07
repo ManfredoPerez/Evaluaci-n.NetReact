@@ -1,6 +1,12 @@
-﻿namespace backend.Data
+﻿using Microsoft.EntityFrameworkCore;
+using backend.Models;
+
+namespace backend.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+        public DbSet<Alumno> Alumnos { get; set; }
     }
 }

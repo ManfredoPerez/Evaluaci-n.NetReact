@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "backend.Controllers.AlumnoController",
+    "Method": "ConsultarPorGrado",
+    "RelativePath": "api/Alumno/consultar/{gradoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.AlumnoController",
+    "Method": "CrearAlumno",
+    "RelativePath": "api/Alumno/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alumnoDTO",
+        "Type": "backend.Models.CrearAlumnoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.AlumnoController",
+    "Method": "ListarAlumnos",
+    "RelativePath": "api/Alumno/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

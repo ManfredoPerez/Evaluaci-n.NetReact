@@ -37,3 +37,6 @@ C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\obj
 C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\perez\Desktop\Evaluación de .Net y Angular o React\backend\backend\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
