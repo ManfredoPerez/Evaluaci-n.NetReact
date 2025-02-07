@@ -8,5 +8,9 @@ namespace backend.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Alumno> Alumnos { get; set; }
+
+        public DbSet<Grado> Grados { get; set; }
+
+        public DbSet<Seccion> Secciones { get; set; }
     }
 }

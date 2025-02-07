@@ -42,6 +42,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend.Controllers.GradoController",
+    "Method": "CrearGrado",
+    "RelativePath": "api/Grado/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grado",
+        "Type": "backend.Models.Grado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.GradoController",
+    "Method": "ListarGrados",
+    "RelativePath": "api/Grado/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.SeccionController",
+    "Method": "CrearSeccion",
+    "RelativePath": "api/Seccion/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seccion",
+        "Type": "backend.Models.Seccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.SeccionController",
+    "Method": "ListarSecciones",
+    "RelativePath": "api/Seccion/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
